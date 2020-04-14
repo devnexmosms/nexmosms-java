@@ -4,6 +4,9 @@ import com.nexmosms.client.auth.*;
 import com.nexmosms.client.sms.SmsClient;
 import org.apache.http.client.HttpClient;
 
+/**
+ * Please check nexmosms for documentations
+ */
 public class NexmoSMSClient {
     private SmsClient sms;
     private HttpWrapper httpWrapper;
