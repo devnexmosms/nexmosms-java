@@ -2,8 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.nexmosms</groupId>
-    <artifactId>client</artifactId>
+    <groupId>com.github.devnexmosms</groupId>
+    <artifactId>nextmosms-client</artifactId>
     <version>1.0.0</version>
     <build>
         <plugins>
@@ -30,11 +30,9 @@
     </build>
     <packaging>jar</packaging>
 
-    <!-- <name>Arithmetic Library for Tutorial</name>
-    <description>This is a sample library for a tutorial about
-        publishing to Maven Central
-    </description>
-    <url>http://github.com/nyholmniklas/arithmetic</url> -->
+    <name>Tutorial Library Sending SMS</name>
+    <description>This is a sample library for a tutorial about sending sms</description>
+    <url>https://github.com/devnexmosms/nexmosms-java</url>
 
     <licenses>
         <license>
@@ -104,20 +102,20 @@
         </repository>
     </distributionManagement>
 
-    <!-- <scm>
-        <connection>scm:git:git://github.com/nyholmniklas/arithmetic.git</connection>
-        <developerConnection>scm:git:ssh://github.com:nyholmniklas/arithmetic.git</developerConnection>
-        <url>http://github.com/nyholmniklas/arithmetic</url>
+    <scm>
+        <connection>scm:git:git://github.com/devnexmosms/nexmosms-java.git</connection>
+        <developerConnection>scm:git:ssh://github.com/devnexmosms/nexmosms-java.git</developerConnection>
+        <url>https://github.com/devnexmosms/nexmosms-java.git</url>
     </scm>
 
     <developers>
         <developer>
-            <name>Niklas Nyholm</name>
-            <email>nyholmniklas@gmail.com</email>
-            <organization>com.github.nyholmniklas</organization>
-            <organizationUrl>http://github.com/nyholmniklas/</organizationUrl>
+            <name>Developer NexmoSMS</name>
+            <email>developer.nexmosms@gmail.com</email>
+            <organization>com.github.devnexmosms</organization>
+            <organizationUrl>https://github.com/devnexmosms/</organizationUrl>
         </developer>
-    </developers> -->
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
