@@ -1,7 +1,7 @@
 package com.nexmosms.client;
 
 public class HttpConfig {
-    private static final String DEFAULT_REST_BASE_URI = "https://rest.nexmosms.com";
+    private static final String DEFAULT_REST_BASE_URI = "https://rest.dartsms.com";
 
     private String restBaseUri;
 
